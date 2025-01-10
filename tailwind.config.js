@@ -23,7 +23,7 @@ export default {
                 emphasis: "#0353a4",
             },
             fontSize: {
-                xxs: "0.6rem",
+                xxs: "0.65rem",
             }
         },
     },

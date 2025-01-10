@@ -2,9 +2,9 @@
 
 @php
     $classes = !$alt ? 'bg-darkgray' : 'bg-transparent border border-gray font-bold';
-    $classes .= ' px-2 py-1 rounded-lg text-white';
+    $classes .= ' px-2 py-1 rounded-lg text-white  hover:bg-white/30';
 @endphp
 
-<span {{ $attributes->merge(['class' => $classes]) }}>
+<a {{ $attributes->merge(['class' => $classes]) }}>
     {{ $slot }}
-</span>
+</a>

@@ -12,7 +12,8 @@
 
 <body>
     <x-navigation />
-    <main class="p-6 lg:px-20">
+
+    <main class="p-6 lg:px-20 w-full md:w-3/4 lg: mx-auto min-h-[90vh]">
         {{ $slot }}
     </main>
 </body>
